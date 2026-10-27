@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Gustavo Brizuela — AI Automation Engineer · CEO @ Forge">
+  <defs>
+    <symbol id="anvil" viewBox="0 6 124 52">
+      <clipPath id="aL"><rect x="0" y="0" width="64" height="60"/></clipPath>
+      <clipPath id="aR"><rect x="64" y="0" width="60" height="60"/></clipPath>
+      <path clip-path="url(#aL)" fill="#ECEAE6" d="M2.2 11.6C2.4 10.8 3.2 10.4 4.5 10.4H46.4V8.8Q46.4 8 47.2 8H117.2Q118 8 118 8.8V15.8Q118 16.6 117.2 16.6H113C98 16.6 84 20 79 28C76 33 77.5 40 82 42.5C85 44 89 44.6 91 46L93.6 47.6V55.8H79.4L77 53.2H49L46.6 55.8H36.8V47.6C40 46.6 46 45 49 42C52 38 52 31 48 28.5C45 26.6 41 27 38 26.4C26 24.5 12 19 5 14.6C3 13.4 1.9 12.6 2.2 11.6Z"/>
+      <g transform="translate(2.5 0)">
+        <path clip-path="url(#aR)" fill="#ECEAE6" d="M2.2 11.6C2.4 10.8 3.2 10.4 4.5 10.4H46.4V8.8Q46.4 8 47.2 8H117.2Q118 8 118 8.8V15.8Q118 16.6 117.2 16.6H113C98 16.6 84 20 79 28C76 33 77.5 40 82 42.5C85 44 89 44.6 91 46L93.6 47.6V55.8H79.4L77 53.2H49L46.6 55.8H36.8V47.6C40 46.6 46 45 49 42C52 38 52 31 48 28.5C45 26.6 41 27 38 26.4C26 24.5 12 19 5 14.6C3 13.4 1.9 12.6 2.2 11.6Z"/>
+        <rect class="bar" x="82" y="29.6" width="26" height="5.6" fill="#F06A1F"/>
+      </g>
+    </symbol>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+    <radialGradient id="heat" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F06A1F" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#F06A1F" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="t1"><rect class="type t1" x="70" y="178" width="560" height="34"/></clipPath>
+    <clipPath id="t2"><rect class="type t2" x="70" y="178" width="0" height="34"/></clipPath>
+    <clipPath id="t3"><rect class="type t3" x="70" y="178" width="0" height="34"/></clipPath>
+    <style>
+      .sans { font-family: 'Manrope', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, 'Courier New', monospace; }
+      .bar { animation: glow 2.4s ease-in-out infinite; }
+      @keyframes glow { 0%,100% { fill: #F06A1F; } 50% { fill: #FFB27A; } }
+      .heat { animation: pulse 2.4s ease-in-out infinite; transform-origin: 1010px 150px; }
+      @keyframes pulse { 0%,100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.08); } }
+      .spark { animation: rise 2.4s ease-out infinite; opacity: 0; }
+      .s2 { animation-delay: .4s; } .s3 { animation-delay: .9s; } .s4 { animation-delay: 1.3s; } .s5 { animation-delay: 1.8s; } .s6 { animation-delay: .2s; }
+      @keyframes rise { 0% { opacity: 0; transform: translate(0,0); } 10% { opacity: 1; } 100% { opacity: 0; transform: translate(var(--dx), -90px); } }
+      .type { animation: 9s steps(26) infinite; }
+      .t1 { animation-name: type1; } .t2 { animation-name: type2; } .t3 { animation-name: type3; }
+      @keyframes type1 { 0%,28% { width: 560px; } 33.3%,100% { width: 0; } }
+      @keyframes type2 { 0%,33.3% { width: 0; } 43% { width: 560px; } 61% { width: 560px; } 66.6%,100% { width: 0; } }
+      @keyframes type3 { 0%,66.6% { width: 0; } 76% { width: 560px; } 94% { width: 560px; } 100% { width: 0; } }
+      .t1 { animation-timing-function: steps(1); }
+      .caret { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .line { stroke-dasharray: 8 6; animation: march 1.2s linear infinite; }
+      @keyframes march { to { stroke-dashoffset: -14; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" fill="#000"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <g class="fade">
+    <text x="70" y="78" class="mono" font-size="15" letter-spacing="4" fill="#77736D">BUENOS AIRES · ARGENTINA</text>
+    <text x="68" y="140" class="sans" font-size="58" font-weight="800" fill="#ECEAE6">Gustavo Brizuela</text>
+  </g>
+
+  <g class="mono" font-size="26" fill="#F06A1F">
+    <text x="70" y="204" clip-path="url(#t1)">&gt; AI Automation Engineer</text>
+    <text x="70" y="204" clip-path="url(#t2)">&gt; CEO @ Forge</text>
+    <text x="70" y="204" clip-path="url(#t3)">&gt; Agentes de IA que trabajan 24/7</text>
+  </g>
+
+  <line class="line" x1="70" y1="240" x2="590" y2="240" stroke="#F06A1F" stroke-width="2"/>
+  <text x="70" y="270" class="mono fade" font-size="14" fill="#77736D">n8n · Node.js · TypeScript · Next.js · Supabase · Playwright · OpenAI · Claude</text>
+
+  <circle class="heat" cx="1010" cy="150" r="150" fill="url(#heat)"/>
+  <use href="#anvil" x="860" y="95" width="300" height="126"/>
+
+  <g fill="#F06A1F">
+    <circle class="spark"    cx="1065" cy="160" r="3"   style="--dx: 18px"/>
+    <circle class="spark s2" cx="1072" cy="158" r="2"   style="--dx: -14px"/>
+    <circle class="spark s3" cx="1080" cy="160" r="2.5" style="--dx: 26px"/>
+    <circle class="spark s4" cx="1058" cy="159" r="2"   style="--dx: -24px"/>
+    <circle class="spark s5" cx="1088" cy="161" r="3"   style="--dx: 8px"/>
+    <circle class="spark s6" cx="1050" cy="160" r="1.8" style="--dx: 32px"/>
+  </g>
+
+  <rect y="296" width="1200" height="4" fill="#F06A1F"/>
+</svg>
