@@ -8,6 +8,8 @@ Construyo sistemas con IA que hacen trabajo real dentro de las empresas: agentes
 - **AI Engineer @ SLS Global**: sistema autónomo de sourcing y negociación con proveedores.
 - **AI Automation Engineer @ Bloop**: proyectos de transformación de empresas con IA.
 
+👉 **[Ver portafolio completo](https://fluxia-forge.vercel.app/portafolio)**: proyectos, resultados y trayectoria.
+
 <p align="center">
   <img src="assets/stack.svg" alt="Stack: n8n, Node.js, TypeScript, Next.js, Supabase, Playwright, OpenAI, Claude y más" width="100%">
 </p>
@@ -37,6 +39,7 @@ Construyo sistemas con IA que hacen trabajo real dentro de las empresas: agentes
 ## Contacto
 
 <p>
+  <a href="https://fluxia-forge.vercel.app/portafolio"><img src="https://img.shields.io/badge/Portafolio-Proyectos%20y%20resultados-0E0E0D?style=flat-square&labelColor=F06A1F" alt="Portafolio"></a>
   <a href="https://www.linkedin.com/in/gustavo-brizuela-62a016173/"><img src="https://img.shields.io/badge/LinkedIn-Gustavo%20Brizuela-0E0E0D?style=flat-square&labelColor=F06A1F" alt="LinkedIn"></a>
   <a href="https://fluxia-forge.vercel.app"><img src="https://img.shields.io/badge/Forge-Software%20con%20IA%20a%20medida-0E0E0D?style=flat-square&labelColor=F06A1F" alt="Forge"></a>
   <a href="https://www.youtube.com/@FluxIAcademy"><img src="https://img.shields.io/badge/YouTube-@FluxIAcademy-0E0E0D?style=flat-square&labelColor=F06A1F" alt="YouTube"></a>
