@@ -24,8 +24,14 @@ Construyo sistemas con IA que hacen trabajo real dentro de las empresas: agentes
 
 - Integración directa con el sistema de mensajería (SDK y WebSockets), sin depender de la interfaz.
 - Lee cotizaciones en PDF, catálogos, Excel y fotos que mandan los proveedores.
-- Arquitectura clasificador + especialista que bajó ~80% el costo mensual de IA.
+- Agente negociador dividido en subagentes escalables, con controles por código para que no abandone ni cierre antes de tiempo.
 - Base de datos en Supabase con cada conversación, cotización y costo por mensaje, más un dashboard en Next.js.
+
+> **🔥 Hito · octubre 2026: −96% de costo en el agente negociador, con mejor calidad.**
+> Dividí el agente principal en subagentes, armé un sandbox que reproduce llamadas reales de producción, puse a Claude Code a hacer QA respuesta por respuesta y recién ahí cambié de modelo.
+> - Volumen real de septiembre: **US$ 279 → US$ 10** con la arquitectura nueva.
+> - **96,2%** de respuestas correctas en 262 llamadas reales (antes ≤ 92,4%).
+> - **−83%** solo por dividir en subagentes, con el mismo modelo.
 
 ## Otros proyectos
 
