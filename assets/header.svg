@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Gustavo Brizuela — AI Automation Engineer · CEO @ Forge">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Gustavo Brizuela — AI Solutions Engineer · Applied AI &amp; Agentic Systems">
   <defs>
     <symbol id="anvil" viewBox="0 6 124 52">
       <clipPath id="aL"><rect x="0" y="0" width="64" height="60"/></clipPath>
@@ -51,13 +51,13 @@
   </g>
 
   <g class="mono" font-size="26" fill="#F06A1F">
-    <text x="70" y="204" clip-path="url(#t1)">&gt; AI Automation Engineer</text>
-    <text x="70" y="204" clip-path="url(#t2)">&gt; CEO @ Forge</text>
-    <text x="70" y="204" clip-path="url(#t3)">&gt; Agentes de IA que trabajan 24/7</text>
+    <text x="70" y="204" clip-path="url(#t1)">&gt; AI Solutions Engineer</text>
+    <text x="70" y="204" clip-path="url(#t2)">&gt; Applied AI &amp; Agentic Systems</text>
+    <text x="70" y="204" clip-path="url(#t3)">&gt; End-to-End Production</text>
   </g>
 
   <line class="line" x1="70" y1="240" x2="590" y2="240" stroke="#F06A1F" stroke-width="2"/>
-  <text x="70" y="270" class="mono fade" font-size="14" fill="#77736D">n8n · Node.js · TypeScript · Next.js · Supabase · Playwright · OpenAI · Claude</text>
+  <text x="70" y="270" class="mono fade" font-size="14" fill="#77736D">Python · Node.js · TypeScript · PostgreSQL · Docker · n8n · Claude · OpenAI</text>
 
   <circle class="heat" cx="1010" cy="150" r="150" fill="url(#heat)"/>
   <use href="#anvil" x="860" y="95" width="300" height="126"/>
