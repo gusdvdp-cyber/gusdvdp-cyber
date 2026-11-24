@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Sistema de previsión de la demanda: ERP, sincronización diaria, PostgreSQL, motor de previsión y tablero con agentes de IA">
+  <defs>
+    <style>
+      .sans { font-family: 'Manrope', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, 'Courier New', monospace; }
+      .node rect { fill: #0E0E0D; stroke: #2A2926; stroke-width: 1.5; animation: lit 10s linear infinite; }
+      .n2 rect { animation-delay: 2s; } .n3 rect { animation-delay: 4s; } .n4 rect { animation-delay: 6s; } .n5 rect { animation-delay: 8s; }
+      @keyframes lit { 0%,20%,100% { stroke: #2A2926; } 2%,16% { stroke: #F06A1F; } }
+      .num { animation: litnum 10s linear infinite; }
+      .n2 .num { animation-delay: 2s; } .n3 .num { animation-delay: 4s; } .n4 .num { animation-delay: 6s; } .n5 .num { animation-delay: 8s; }
+      @keyframes litnum { 0%,20%,100% { fill: #77736D; } 2%,16% { fill: #F06A1F; } }
+      .flow { stroke-dasharray: 6 8; animation: dash 1s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset: -14; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="330" fill="#000"/>
+  <text x="24" y="34" class="mono" font-size="13" letter-spacing="4" fill="#77736D">SISTEMA DE PREVISIÓN DE LA DEMANDA · DISTRIBUIDORA DE AUTOPARTES</text>
+
+  <path id="track" d="M128 206 H1072" fill="none" stroke="#2A2926" stroke-width="2"/>
+  <path d="M128 206 H1072" fill="none" stroke="#F06A1F" stroke-opacity="0.45" stroke-width="2" class="flow"/>
+  <g stroke="#2A2926" stroke-width="2">
+    <line x1="128" y1="190" x2="128" y2="206"/><line x1="364" y1="190" x2="364" y2="206"/><line x1="600" y1="190" x2="600" y2="206"/><line x1="836" y1="190" x2="836" y2="206"/><line x1="1072" y1="190" x2="1072" y2="206"/>
+  </g>
+
+  <g class="node n1" transform="translate(24 70)">
+    <rect width="208" height="120" rx="4"/>
+    <text x="18" y="34" class="mono num" font-size="13">01</text>
+    <text x="18" y="66" class="sans" font-size="20" font-weight="800" fill="#ECEAE6">ERP</text>
+    <text x="18" y="94" class="mono" font-size="12" fill="#77736D">ventas · stock · compras</text>
+    <text x="18" y="110" class="mono" font-size="12" fill="#77736D">solo lectura, por diseño</text>
+  </g>
+  <g class="node n2" transform="translate(260 70)">
+    <rect width="208" height="120" rx="4"/>
+    <text x="18" y="34" class="mono num" font-size="13">02</text>
+    <text x="18" y="66" class="sans" font-size="20" font-weight="800" fill="#ECEAE6">Sincronización</text>
+    <text x="18" y="94" class="mono" font-size="12" fill="#77736D">diaria, 05:00</text>
+    <text x="18" y="110" class="mono" font-size="12" fill="#77736D">incremental, sola</text>
+  </g>
+  <g class="node n3" transform="translate(496 70)">
+    <rect width="208" height="120" rx="4"/>
+    <text x="18" y="34" class="mono num" font-size="13">03</text>
+    <text x="18" y="66" class="sans" font-size="20" font-weight="800" fill="#ECEAE6">PostgreSQL</text>
+    <text x="18" y="94" class="mono" font-size="12" fill="#77736D">historia completa</text>
+    <text x="18" y="110" class="mono" font-size="12" fill="#77736D">+16.000 artículos</text>
+  </g>
+  <g class="node n4" transform="translate(732 70)">
+    <rect width="208" height="120" rx="4"/>
+    <text x="18" y="34" class="mono num" font-size="13">04</text>
+    <text x="18" y="66" class="sans" font-size="20" font-weight="800" fill="#ECEAE6">Motor</text>
+    <text x="18" y="94" class="mono" font-size="12" fill="#77736D">stock de seguridad</text>
+    <text x="18" y="110" class="mono" font-size="12" fill="#77736D">punto de pedido · ABC</text>
+  </g>
+  <g class="node n5" transform="translate(968 70)">
+    <rect width="208" height="120" rx="4"/>
+    <text x="18" y="34" class="mono num" font-size="13">05</text>
+    <text x="18" y="66" class="sans" font-size="20" font-weight="800" fill="#ECEAE6">Tablero + IA</text>
+    <text x="18" y="94" class="mono" font-size="12" fill="#77736D">2 agentes con datos</text>
+    <text x="18" y="110" class="mono" font-size="12" fill="#77736D">pedido en Excel, 1 clic</text>
+  </g>
+
+  <circle r="6" fill="#F06A1F">
+    <animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;0;0.25;0.25;0.5;0.5;0.75;0.75;1;1" keyTimes="0;0.12;0.2;0.32;0.4;0.52;0.6;0.72;0.8;1" calcMode="linear">
+      <mpath href="#track"/>
+    </animateMotion>
+  </circle>
+
+  <g transform="translate(24 222)">
+    <g transform="translate(0 22)">
+      <text x="0" y="34" class="sans" font-size="34" font-weight="800" fill="#F06A1F">$ 1.018 M</text>
+      <text x="0" y="62" class="mono" font-size="12" fill="#77736D">de stock inmovilizado a la vista</text>
+    </g>
+    <g transform="translate(300 22)">
+      <text x="0" y="34" class="sans" font-size="34" font-weight="800" fill="#F06A1F">3.562</text>
+      <text x="0" y="62" class="mono" font-size="12" fill="#77736D">artículos analizados el día 1</text>
+    </g>
+    <g transform="translate(600 22)">
+      <text x="0" y="34" class="sans" font-size="34" font-weight="800" fill="#F06A1F">444</text>
+      <text x="0" y="62" class="mono" font-size="12" fill="#77736D">a reponer, con la cantidad exacta</text>
+    </g>
+    <g transform="translate(900 22)">
+      <text x="0" y="34" class="sans" font-size="34" font-weight="800" fill="#F06A1F">15/15</text>
+      <text x="0" y="62" class="mono" font-size="12" fill="#77736D">respuestas correctas de los agentes</text>
+    </g>
+  </g>
+</svg>
